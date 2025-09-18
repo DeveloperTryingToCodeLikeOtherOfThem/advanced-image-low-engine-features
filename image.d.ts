@@ -1,5 +1,5 @@
 declare namespace image {
-    //% shim=ImageMethods::blit block="blit"
+    //% shim=ImageMethods::blit block="blit %xDst %yDst %wDst %hDst %src=screen_image_picker %xSrc %ySrc %wSrc %hSrc %transparent=toggleOnOff %check=toggleOnOff"
     function blit(
         xDst: number,
         yDst: number,
